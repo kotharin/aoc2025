@@ -1,2 +1,12 @@
-# aoc2025
-AOC 2025
+# aoc2024
+
+## Project Creation
+dotnet new console -lang "F#" -n aoc2025
+
+## Add xunit
+dotnet add package Microsoft.NET.Test.Sdk
+dotnet add package xunit
+dotnet add package xunit.runner.visualstudio
+
+### Run Tests
+dotnet test aoc2025.fsproj --logger:"console;verbosity=normal"
